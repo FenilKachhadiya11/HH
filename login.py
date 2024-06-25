@@ -130,10 +130,10 @@ class Login_Window:
                 if row:
                     user_email = row[0]  # Extract the email from the fetched row
                     # Set up the SMTP server
-                    smtp_server = "smtp.gmail.com"  # Update with your SMTP server details
+                    smtp_server ="enter your smtp server name"  # Update with your SMTP server details
                     port = 587  # Update with your SMTP server port (587 is commonly used for TLS)
-                    sender_email = "aryanamipara3@gmail.com"  # Update with your email address
-                    sender_password = "bagtsanieskqprmk"  # Update with your email password
+                    sender_email = "enter yout email address"  # Update with your email address
+                    sender_password = "enter your password"  # Update with your email password
 
                     # Create a secure SSL context
                     smtp = smtplib.SMTP(smtp_server, port)
